@@ -54,7 +54,7 @@ const DateCards = () => {
     {
       title: "Registration Ends",
       description: "Registrations ends, get your name registered by this date",
-      date: "10th",
+      date: "5th",
       month: "March"
     },
     {

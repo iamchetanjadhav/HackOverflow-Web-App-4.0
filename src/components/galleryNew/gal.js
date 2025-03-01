@@ -35,13 +35,25 @@ const Gallery = () => {
     }
   };
 
-  const handleImageClick = (image) => {
-    setSelectedImage(image);
+  const handleImageClick = (image, link) => {
+    if (link) {
+      window.open(link, '_blank');
+    } else {
+      setSelectedImage(image);
+    }
   };
 
   const closeModal = () => {
     setSelectedImage(null);
   };
+
+  const photos = images.map((item, index) => ({
+    src: item.image,
+    width: 100,
+    height: 60,
+    link: item.link,
+    className: item.link ? 'red-shadow' : ''
+  }));
 
   return (
     <div className="gallery-container">
@@ -64,26 +76,19 @@ const Gallery = () => {
       ) : (
         <div className="image-box">
           <div className="image-grid">
-            {images.map((item, index) => (
+            {photos.map((item, index) => (
               <div 
                 key={index} 
-                className="image-card"
+                className={`image-card ${item.className}`}
                 style={{ animationDelay: `${index * 0.1}s` }}
-                onClick={() => handleImageClick(item.image)}
+                onClick={(e) => handleImageClick(item.src, item.link)}
               >
-                {item.video ? (
-                  <video controls className="gallery-video">
-                    <source src={item.video} type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
-                ) : (
-                  <img
-                    src={item.image}
-                    alt={`Gallery ${index + 1}`}
-                    loading="lazy"
-                    className="gallery-image"
-                  />
-                )}
+                <img
+                  src={item.src}
+                  alt={`Gallery ${index + 1}`}
+                  loading="lazy"
+                  className="gallery-image"
+                />
               </div>
             ))}
           </div>
