@@ -66,14 +66,13 @@ export const filterableData = [
   //   text: "test",
   // },
   {
-    // category: 'hackoverflow1',
-    // image: 'https://hackoverflow3.blr1.cdn.digitaloceanspaces.com/Gallery/HO1/DSC_0012.webp'
     category: 'hackoverflow1',
-    video: 'https://hackoverflow3.blr1.cdn.digitaloceanspaces.com/Gallery/AfterMovie/HackOverflow%201.0%20AfterMovie.mp4'
+    image: 'https://hackoverflow3.blr1.cdn.digitaloceanspaces.com/Gallery/HO1/HO1%20Aftermovie.jpg',
+    link: 'https://youtu.be/HILS0q8Pdn8?si=-l5T96EFA3WMzdoN'
   },
   {
     category: 'hackoverflow1',
-    image: 'https://hackoverflow3.blr1.cdn.digitaloceanspaces.com/Gallery/HO1/DSC_0022.webp'
+    image: 'https://hackoverflow3.blr1.cdn.digitaloceanspaces.com/Gallery/HO1/DSC_0022.webp',
   },
   {
     category: 'hackoverflow1',
@@ -118,10 +117,9 @@ export const filterableData = [
   
   // DAY 2
   {
-    // category: 'hackoverflow2',
-    // image: 'https://hackoverflow3.blr1.cdn.digitaloceanspaces.com/Gallery/HO2/_MG_8046.webp'
     category: 'hackoverflow2',
-    video: 'https://hackoverflow3.blr1.cdn.digitaloceanspaces.com/Gallery/AfterMovie/Hackoverflow%202.0%20AfterMovie.mp4',
+    image: 'https://hackoverflow3.blr1.cdn.digitaloceanspaces.com/Gallery/HO2/HO2%20Aftermovie.jpg',
+    link: 'https://youtu.be/VqBp6znJSF4?si=CpLPilo2CJYruCUW'
   },
   {
     category: 'hackoverflow2',

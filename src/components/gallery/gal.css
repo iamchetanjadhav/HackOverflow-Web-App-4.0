@@ -109,3 +109,7 @@ h1#orange-pink {
     object-fit: contain;
 }
 
+.red-shadow {
+    box-shadow: 0 4px 20px rgba(255, 0, 0, 0.5); /* Red shadow effect */
+}
+
