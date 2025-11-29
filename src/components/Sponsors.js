@@ -300,7 +300,7 @@ const Sponsors = () => {
               <div className="col-7">
                 <p className="spon_p">
                   Reach hundreds of students and potential customers by
-                  sponsoring HackOverFlow 3.0
+                  sponsoring HackOverFlow 4.0
                 </p>
                 <h1 className="spon_head my-4">
                   WANT TO <br />

@@ -3,7 +3,7 @@ import { useCountdown } from "../../Hooks/useCountdown";
 import "./CountDown.css";
 
 const CountDownTimer = () => {
-  const targetDate = new Date("2026-03-11");
+  const targetDate = new Date("2025-03-22");
   const [days, hours, minutes, seconds] = useCountdown(targetDate);
 
   return (
