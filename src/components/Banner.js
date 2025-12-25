@@ -45,7 +45,7 @@ export const Banner = () => {
     setWindowWidth(width);
   };
 
-  const date = new Date("2024-03-14");
+  const date = new Date("2025-03-14");
   date.setHours(10, 0, 0, 0);
 
   return (
