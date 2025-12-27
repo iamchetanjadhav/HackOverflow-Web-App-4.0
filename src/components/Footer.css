@@ -1,9 +1,9 @@
 .footer {
-  background: #15281fb6;
+  background: #0F0F0F; /* Matching sections like About and Sponsors */
   color: #fff;
   padding: 3rem 0 1rem;
   position: relative;
-  backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer-content {
@@ -36,23 +36,30 @@
 }
 
 .footer-section h3 {
-  background: linear-gradient(90deg, #7DFFE4 0%, #fff 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg, #FCB216 0%, #E85D24 35%, #D91B57 70%, #63205F 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  color: transparent !important;
   font-size: 1.6rem;
   margin-bottom: 1.2rem;
   font-weight: 700;
   letter-spacing: 0.5px;
+  display: inline-block;
 }
 
 .footer-section h4 {
-  color: #7DFFE4;
+  background: linear-gradient(90deg, #FCB216 0%, #E85D24 35%, #D91B57 70%, #63205F 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  color: transparent !important;
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
+  display: block;
 }
 
 .footer-section p {
@@ -70,13 +77,13 @@
 }
 
 .social-links a {
-  color: #7DFFE4;
+  color: #FCB216;
   font-size: 1.5rem;
   transition: all 0.3s ease;
 }
 
 .social-links a:hover {
-  color: #fff;
+  color: #D91B57;
   transform: translateY(-3px);
 }
 
@@ -97,7 +104,7 @@
 }
 
 .quick-links a:hover {
-  color: #7DFFE4;
+  color: #D91B57;
   padding-left: 5px;
 }
 
